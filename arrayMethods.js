@@ -53,3 +53,9 @@ brownOnly.splice(0,'brown','brown','brown','brown')
 console.log(orderedValues)
 orderedValues.unshift(1,2,3)
 orderedValuesNewLength = orderedValues.length;
+
+var randomThingsArray = genericNumberArray.concat(colors)
+var order1 = {takeOut: 'Mac'}
+var order2 = {takeOut: 'Ice'}
+var updatedOrders = orderQueue.concat(order1,order2)
+console.log(updatedOrders)
