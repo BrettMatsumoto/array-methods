@@ -50,7 +50,7 @@ brownOnly.splice(0,'brown','brown','brown','brown')
 // console.log(brownOnly.length)
 // console.log(brownOnly)
 
-console.log(orderedValues)
+// console.log(orderedValues)
 orderedValues.unshift(1,2,3)
 orderedValuesNewLength = orderedValues.length;
 
@@ -58,4 +58,12 @@ var randomThingsArray = genericNumberArray.concat(colors)
 var order1 = {takeOut: 'Mac'}
 var order2 = {takeOut: 'Ice'}
 var updatedOrders = orderQueue.concat(order1,order2)
-console.log(updatedOrders)
+// console.log(updatedOrders)
+var sentence = scrambledWords.join(' ');
+var myFruits = fruitCollection.join(' + ');
+
+console.log(friends)
+var favoriteFriends = friends.slice(1,3);
+console.log(favoriteFriends);
+var owesMoney = friends.slice(3,6)
+console.log(owesMoney)
